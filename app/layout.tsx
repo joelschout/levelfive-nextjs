@@ -11,11 +11,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LevelFive — Header Demo",
-  description: "Hero/header replica for LevelFive (Next.js + Tailwind).",
+  title: "LevelFive",
+  description: "Content die beweegt & verkoopt.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="nl" className={inter.variable}>
       <body className="min-h-dvh bg-white text-black antialiased">
