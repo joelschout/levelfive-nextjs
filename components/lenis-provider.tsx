@@ -23,7 +23,6 @@ export default function LenisProvider({ children }: PropsWithChildren) {
       // Feel free to tweak to taste
       duration: 1.1,
       smoothWheel: true,
-      smoothTouch: false,
       wheelMultiplier: 1,
       touchMultiplier: 1.2,
     });
