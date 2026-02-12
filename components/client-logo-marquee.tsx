@@ -6,7 +6,7 @@ import Image from "next/image";
 // These filenames match the ones in your screenshot.
 const LOGOS = [
   "1-300x171.png",
-  "67c588f7b2c8ed868b48d18e_holydinner-bordeaux-300x176.png",
+  "67c588f7b2c8ed868b48d18e_holydinner-boredeaux-300x176.png",
   "333-300x193-1.png",
   "a0e9e040-d42c-4b9f-a77e-f16b340a95d3-300x188-1.png",
   "Brisa-gold-green.png-2-300x119.webp",
@@ -44,7 +44,10 @@ export default function ClientLogoMarquee() {
   return (
     <div className="border-t border-black/10 bg-white w-full">
       <div className="py-10 logo-marquee">
-        <div className="marquee" style={{ ["--marquee-duration" as any]: "40s" }}>
+        <div
+          className="marquee"
+          style={{ ["--marquee-duration" as any]: "40s" }}
+        >
           <div className="marquee-track">
             {items.map((file, i) => (
               <LogoItem key={`${file}-${i}`} file={file} />
