@@ -1,4 +1,4 @@
-# LevelFive — Header/Hero (Next.js)
+# LevelFive — Next.js
 
 Replica-style hero/header based on the screenshot (Next.js App Router + Tailwind).
 
